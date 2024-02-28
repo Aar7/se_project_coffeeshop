@@ -89,7 +89,7 @@
 
 .header__description {
   max-width: 683px;
-  font-family: "Noto serif", "Times New Roman" serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -121,7 +121,6 @@
   padding-top: 100px;
   padding-left: 80px;
   padding-bottom: 215px;
-  padding-right: auto;
 }
 
 .recipes__title {
