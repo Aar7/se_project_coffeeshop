@@ -105,7 +105,85 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="id_reservation"></section>
+        <section class="reservation" id="id_reservation">
+          <!-- <h2 class="reservation__title">Book a table</h2>
+          <div class="form-container">
+            <form class="form reservation__form">
+              <fieldset class="form__fieldset">
+                <label for="" class="form__label">Name *</label>
+                <input type="text" class="form__input" />
+                <label for="" class="form__label">Number of guests *</label>
+                <input type="number" min="1" max="8" class="form__input" />
+                <label for="" class="form__label">Date & time *</label>
+                <input type="datetime-local" class="form__input" />
+                <label for="" class="form__label">Your email *</label>
+                <input type="email" class="form__input" />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <button class="form__button" type="submit">Submit</button>
+              </fieldset>
+              <fieldset class="form__fieldset form__fieldset-inline">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  id="checkbox-terms"
+                />
+                <label for="checkbox-terms" class="form__label">ddddd</label>
+              </fieldset>
+            </form>
+          </div> -->
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="names" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Name Surname"
+                id="names"
+                required
+              />
+              <label for="guest-quantity" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                type="number"
+                min="1"
+                max="8"
+                class="form__input"
+                placeholder="1-8"
+                id="guest-quantity"
+                required
+              />
+              <label for="date-time" class="form__label">Date & time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date-time"
+                required
+              />
+              <label for="user-email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="user-email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label
+              for="checkbox-text"
+              class="form__label form__label_type_checkbox"
+            >
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                id="checkbox-text"
+              />I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="menu" id="id_menu"></section>
         <section class="about" id="id_about"></section>
       </main>
