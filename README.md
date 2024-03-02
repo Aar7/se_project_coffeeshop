@@ -9,8 +9,10 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - Positioning
 - Flat BEM file structure
 - A custom form
-- CSS animation and transform
+- CSS animation and transforms
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Have a side menu that follows the user with the links from the top-navbar
+- The link to book a table can follow the user across the page
+- The recipes page can be made separate from index.html with a navbar link to more recipes than are shown
