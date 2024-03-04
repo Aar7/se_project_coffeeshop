@@ -7,7 +7,6 @@
   color: #fff;
 }
 
-/*nav block*/
 .footer__content {
   display: flex;
   justify-content: space-between;
@@ -18,9 +17,6 @@
   height: 39px;
   margin: 0;
 }
-
-/* .footer__social-group {
-} */
 
 .footer__social-heading {
   margin: 0 0 20px;
